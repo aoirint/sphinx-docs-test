@@ -1,8 +1,8 @@
+---
+orphan: true
+---
+
 # index
 
-```{toctree}
-:maxdepth: 2
-
-hoge/index.md
-```
+- [hoge](hoge/index.md)
 
