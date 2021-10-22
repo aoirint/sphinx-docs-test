@@ -6,3 +6,6 @@ orphan: true
 
 - [hoge](hoge/index.md)
 
+```python
+import os
+```
