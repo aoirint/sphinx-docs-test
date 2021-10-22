@@ -53,10 +53,9 @@ html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 
 html_context = {
-    "display_gitlab": True, # Integrate Gitlab
-    "gitlab_user": "aoirint", # Username
-    "gitlab_repo": "sphinx-docs-test", # Repo name
-    "gitlab_version": "main", # Version
+    "display_github": True, # Integrate GitHub
+    "github_user": "aoirint", # Username
+    "github_repo": "sphinx-docs-test", # Repo name
+    "github_version": "main", # Version
     "conf_py_path": "/", # Path in the checkout to the docs root
 }
-
