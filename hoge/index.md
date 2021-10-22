@@ -4,6 +4,4 @@
 
 ```{toctree}
 :hidden:
-
-../index.md
 ```

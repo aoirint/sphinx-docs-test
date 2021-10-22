@@ -1,6 +1,7 @@
 ---
-# orphan: true
+orphan: false
 ---
+
 # index
 
 - [hoge](hoge/index.md)
