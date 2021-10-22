@@ -1,0 +1,4 @@
+# hoge
+
+- [index](../index.md)
+
