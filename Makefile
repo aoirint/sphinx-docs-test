@@ -12,5 +12,5 @@ serve:
 .PHONY: build
 build:
 	docker buildx build ./.docker -t "sphinx"
-	docker run --rm -it -v "$(ROOT_DIR):/docs" "sphinx" sphinx-build -M html "$(SOURCEDIR)" "$(BUILDDIR)" -c ".docker/sphinx" $(SPHINXOPTS) $(O)
+	docker run --rm -v "$(ROOT_DIR):/docs" "sphinx" sphinx-build -M html "$(SOURCEDIR)" "$(BUILDDIR)" -c ".docker/sphinx" $(SPHINXOPTS) $(O)
 
